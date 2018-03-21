@@ -600,7 +600,7 @@ if __name__ == '__main__':
 
         while not is_force_termination:
 
-            if execute() != 0:
+            if execute() == 1:
                 sys.exit(1)
 
             if is_force_termination:
